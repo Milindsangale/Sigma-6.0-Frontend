@@ -6,6 +6,7 @@
     <title>assignment</title>
 </head>
 <body>
+    <h3>Question1</h3>
     <table border="1">
         <caption> student Information</caption>
         <tr>
@@ -34,8 +35,99 @@
             <td>4</td>
         </tr>
 
-        
     </table>
+
+<hr>
+<h3>Question 2</h3>
+
+<!-- Usethefollowing:
+                -TextInputforName
+                -RadioButtonforSex
+                -GiveOptions:India,Nepal,USA,CanadaforCountry
+                -TextAreaforMessage
+                -CheckboxforSubscribe
+                -SubmitButton -->
+
+<form action="/server">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" />
+    </div>
+    <div>
+        sex:
+        <input type="radio" name="sex" id="Female" />
+        <label for="Sex">Male</label>
+        <input type="radio" name="sex" id="Female"/>
+        <label for="sex">Female</label>
+    </div>
+    <div>
+        Country:
+        <select name="country" id="country">
+            <option value="select an option"></option>
+            <option value="India">India</option>
+            <option value="USA">Nepal</option>
+            <option value="UK">USA</option>
+            <option value="UK">Canada</option>
+        </select> 
+    </div>
+    <div>
+        message:
+        <br>
+        <textarea name="message" id="message" cols="20" rows="5"></textarea>
+    </div>
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe</label>
+    </div>
+    <div>
+        <button>Submit</button>
+    </div>
+</form>
+
+<hr>
+<h3>Question 3</h3>
+<form action="/milind">
+    <div>
+        <h1>Feedback Form </h1>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Write your name">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Write your email">
+    </div>
+    <br>
+    <div>
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" id="message" cols="20" rows="5"></textarea>
+    </div>
+    <div>
+        <label for="rate">Rate us out of 5</label>
+        <br>
+        <input type="radio" name="rate" id="one" value="one" />
+        <label for="one">1</label>
+        <br>
+        <input type="radio" name="rate" id="Two"  value="Two"/>
+        <label for="Two">2</label>
+        <br>
+        <input type="radio" name="rate" id="Three" value="Three" />
+        <label for="Three">3</label>
+        <br>
+        <input type="radio" name="rate" id="Four" value="Four"/>
+        <label for="Four">4</label>
+        <br>
+        <input type="radio" name="rate" id="Five" value="Five" />
+        <label for="Five">5</label>
+        <br>
+        <br>
+
+        <button>Send your message</button>
+        
+    </div>
+</form>
+
     
 </body>
 </html>

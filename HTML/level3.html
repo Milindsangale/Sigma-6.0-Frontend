@@ -182,11 +182,117 @@
 
 <!-- name attribute -->
  <!-- name username -->
-
+<hr>
 
     <form action="https://www.google.com/search?">
     <input type="text" name="q" placeholder="sercj in goggle">
-    <button>serch</button>  
+    <button style="background-color: blue; color: rgb(249, 247, 247);" >serch</button>  
 </form>
+
+
+<!-- check box element -->
+ <form action="/server">
+    <input type="checkbox" id="age" name="age" checked/>
+    <label for="age">i am 18 +</label>
+    <button>submit</button>
+    
+ </form>
+
+ <!-- Radio Button -->
+  <h1>radio Butto</h1>
+  <form action="/server">
+    <input type="radio" name="fruit" id="apple" value="apple"/>
+    <label for="apple">Apple</label>
+    <input type="radio" name="fruit" id="apple"/>
+    <label for="apple">Apple</label>
+    <input type="radio" name="fruit" id="apple"/>
+    <label for="apple">Apple</label>
+    <input type="radio" name="fruit" id="apple"/>
+    <label for="apple">Apple</label>
+    <button>submit</button>
+  </form>
+
+
+
+  <!-- Checkbox -->
+   <h2>choose your subject</h2>
+    <form action="/server">
+     <input type="checkbox" name="subject" id="math" value="math"/>
+     <label for="math">Math</label>
+     <input type="checkbox" name="subject" id="science" value="science"/>
+     <label for="science">Science</label>
+     <input type="checkbox" name="subject" id="history" value="history"/>
+     <label for="history">History</label>
+     <input type="checkbox" name="subject" id="geography" value="geography"/>
+     <label for="geography">Geography</label>
+     <button>submit</button>
+    </form>
+
+
+
+
+
+    <!-- dropdown -->
+ <form action="/server">
+        <select name="profession" id="profession">
+                <option value="student">Student</option>
+                <option value="student">Student </option>
+                <option value="student">Student</option>
+                <option value="student">Student</option>
+                <option value="student">Student</option>
+                <option value="student">Student</option>  
+        </select>
+                <button>Submit</button>
+</form>
+
+
+
+<!-- Range -->
+ <div>
+    <form action="/server">
+    <label for="val">slect the volume level</label>
+    <input type="range" id="val" min="0" max="100" name="vallume" step="10">
+    <button>Sumbit</button>
+   
+ </div>
+
+
+ <!-- text area -->
+  <div>
+    <label for="feedback">plese provide your feedback</label>
+    <br>
+    <textarea name="feedback" id="feedback" cols="5" rows="5" placeholder="milindsgsfd"></textarea>
+    <button>sumbit</button>
+  </div>
+</form>
+
+<hr>
+<br>
+<form action="/server">
+    <h2>Registration Form</h2>
+    <div>
+        <input type="text" name="fname" id="fname" placeholder="First Name">
+        <input type="text" name="lname" id="lname" placeholder="Last Name">
+    </div>
+    <div>
+        plese select your gender
+        <select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="other">other</option>
+    </select>
+    </div>
+    <div>
+        Do you agree to all terms of service?
+        <input type="checkbox" name="terms" id="terms" checked>
+        <label for="terms">Yes ,I agree</label>
+    </div>
+    <div>
+        <button>Submit</button>
+    </div>
+</form>
+
+<hr>
+
 </body>
 </html>
