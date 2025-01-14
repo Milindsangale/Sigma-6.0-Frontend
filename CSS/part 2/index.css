@@ -1,0 +1,99 @@
+*{
+    font-family: 'Courier New';     /* all selector */
+
+}
+
+/* h3{
+    color: purple;
+} */
+
+h1,h3{              /* Element Selector*/
+    color: #b92b27;
+}
+#login{                   /* Id Selector */
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;      /* Id Selector */
+    color: white;
+}
+
+.upvote{
+    background-color: green;     /* class Selector */
+    color:  white;
+
+}
+.post a {                  /* descendant selector */
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{                /* descendant selector */ 
+    color: rgb(220, 14, 48);
+}
+p + h3{                      /* Adjacent slibling combination */
+    text-decoration: underline;
+}
+.upvote + button{                     /* Adjacent slibling combination */  
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div > input{                      /* child combination */
+    background-color: rgb(33, 183, 203);
+}
+
+input[type = "text"]{        /* Attribute selector */
+    color: red;
+}
+
+input[type = "password"] {    /* Attribute selector */
+    color: red;
+    color: green;
+}
+
+input[type] {         /* Attribute selector */
+    background-color: antiquewhite;
+}
+#myid{
+    color: green;             /* Questions */
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{         /* hover */
+    text-decoration: none;
+}
+button:active{          /* active */
+    background-color: rgb(225, 10, 222);
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+    
+    
+}
+input[type="radio"]:checked+label{     /*Attribute Selector*/
+    color: blue;
+    font-weight: bold;
+}
+div:nth-of-type(2n){
+    background-color: rgb(66, 226, 173);
+}
+
+h1::first-letter{            /* Pseudo  */
+    color: chartreuse;
+    background-color: blue;
+}
+p::first-line{                    /* Pseudo */
+    color: rgb(236, 19, 19);
+}
+*::selection{
+    color: rgb(15, 14, 14);
+    background-color: rgb(77, 174, 216);
+}
