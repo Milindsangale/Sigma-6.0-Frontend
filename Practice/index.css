@@ -1,0 +1,31 @@
+#div1{
+    background-color: aqua;
+    border: 10px dotted black; 
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 25px;
+    padding: 25px;
+    
+}
+
+#div2{
+    background-color: rgb(234, 159, 31);
+    border: 5x dotted black; 
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 12px;
+    padding: 12px;
+
+}
+#div3{
+    background-color: rgb(223, 16, 1);
+    border: 5x dotted black; 
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 7px;
+    padding: 7px;
+
+}

@@ -1,0 +1,37 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(188, 226, 18);
+   /*  border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid rgb(11, 11, 11);
+    border-left-color: rgb(208, 233, 16);
+    border-right-color: black;
+    border-top-right-radius: 15px; 
+    padding-top: 10px;
+    padding-bottom:10px ;
+    margin-bottom: 25px; 
+    display: inline;
+
+}
+
+h1{
+   /*  border-width: 2px;
+    border-style: dashed;
+    border-color: blue; */
+    border: 2px dashed blue;
+    border-radius: 15px;
+    margin: 20px;
+    
+}
+
+button{
+    border: 2px;
+    border-style: solid;
+   /*  border-radius: 10px; */
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    background-color: aqua;
+    padding:25px 25px 25px 25px;
+}
