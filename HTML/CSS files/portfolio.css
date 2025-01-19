@@ -1,0 +1,83 @@
+h1{
+    color: rgb(9, 24, 246);
+    /* height: 100px;
+    width: 100px; */
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(232, 217, 220);
+    font-weight: bold;
+    font-style: italic;
+}
+nav {
+    overflow: hidden;
+    background-color: rgb(6, 6, 5);
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: #e80808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  nav a:hover {
+    background-color: #0fdb2d;
+    color: rgb(237, 227, 227);
+  }
+
+  img{
+    height: 200px;
+    width:200px;
+    margin: 10px;
+    padding: 10px;
+    margin: 0, auto;
+    border: 3px solid black;
+    margin: 10px auto;
+    position: relative;
+    left: 640px;
+    background-color: rgb(95, 172, 172);
+  }
+
+  img:hover{
+    background-color: ;
+
+    box-shadow: 2px 2px 5px orange;
+  }
+
+.aboutme{
+    background-color: rgb(197, 237, 237);
+    color: black;
+    font-weight: 10px;
+    text-align: center;
+    border: 2px dotted black;
+}
+.information{
+    text-align: center;
+}
+
+#copirigt{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid goldenrod;
+}
+
+
+body{
+    background-color: azure;
+    background-image: url(https://media.istockphoto.com/id/1327483291/vector/digital-network-connection-abstract-background-artificial-intelligence-and-engineering.jpg?s=612x612&w=0&k=20&c=PQmMcCfXmTKCR-mC10atdHXlTUR4YwQbW0A9nUQodk0=);
+    background-size: contain;
+}
+
+.milind{
+    color: #eb4e0f;
+}
+.Gmail{
+    color: coral;
+}
