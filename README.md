@@ -1,2 +1,4 @@
-![Screenshot 2025-01-12 184109](https://github.com/user-attachments/assets/289e9d46-72de-47fd-9729-27677f979bd3)
-
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,vscode,github,figma,tailwind,git,r" />
+    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql,flask" /><br>
+</div>
