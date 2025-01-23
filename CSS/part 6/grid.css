@@ -1,10 +1,14 @@
 .container{
     width: 600px;
     height: 300px;
-    background-color: black;
+    background-color:yellow;
     display: flex;
     display: grid;
-    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-columns: auto auto auto auto auto;     /* automatic */
+    grid-template-rows: auto auto auto auto auto;        /* automatic */
+    grid-template-columns: repeat(5, 1fr);   
+    grid-gap: 10px;
 
 }
 
@@ -14,4 +18,11 @@
     background-color: greenyellow;
     border: 2px solid black;
 
+}
+.itemone{
+ /*    grid-column-start: 1;
+    grid-column-end: 3; */
+    background-color: rgb(38, 0, 255);
+    grid-column: 1/3;
+    grid-row: 1/3;
 }

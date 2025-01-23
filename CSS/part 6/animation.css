@@ -1,0 +1,66 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color:pink;
+    text-align: center;
+/* 
+    animation-name: identifier;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+ */
+
+    animation: identifier 2s ease-in 1s 3 reverse;
+
+
+}
+@keyframes milindsangale{
+    from{font-size: 20px;}
+    to{font-size: 40px;}
+    
+}
+/* @keyframes identifier {
+    from{
+        background-color: red;
+        font-size: 20px;
+        height: 150px;
+    }
+    to{
+        background-color: blue; 
+        font-size: 40px;
+        border-radius: 50px;
+        width: 500px;
+    }  
+}
+ */
+
+
+@keyframes identifier {
+    0%{
+        background-color: red;
+        font-size: 20px;
+    
+    }
+    50%{
+        background-color: green;
+        font-size: 30px;
+    }
+    100%{
+        background-color: blue; 
+        font-size: 40px;
+}
+
+}
+
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media {width: 400px;} {
+    h1 {
+        background-color: red;
+    }
+}
