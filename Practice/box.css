@@ -1,0 +1,15 @@
+#box1{
+    width: 1000px;
+    height: 600px;
+    background-color: aqua;
+}
+
+#box2{
+    height: 500;
+    width: 900;
+    background-color: black;
+}
+
+#box3{
+    background-color: burlywood;
+}

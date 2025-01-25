@@ -1,0 +1,60 @@
+.india{
+    width: 500px;
+    height: 100px;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#white{
+    background-color: white;
+}
+
+#green{
+    background-color: green;
+}
+
+#circle{
+    width: 80px;
+    height:80px;
+    background-color: blue;
+    margin: 0 auto;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: relative;
+    top: 11px;
+}
+
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: orange;
+    border: 5px solid black;
+    text-shadow: 5px 5px 5px green;
+    
+    
+   
+}
+
+
+#main{
+    margin-left:500px;
+
+}
+
+h1:hover{
+    color: green;
+    text-shadow: 5px 5px 5px orange;
+}
+/* 
+body{
+    background-color: ;
+} */
+
+
+
+/* body{background-color: aqua;} */
