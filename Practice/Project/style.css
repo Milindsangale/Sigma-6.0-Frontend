@@ -3,7 +3,7 @@
     width: 100%;
     border-radius: 10px;
     display: flex;
-/*     background-color: #5f5c1b; */
+   background-color: #5f5c1b;
     overflow: auto;
     background-color:black;
     
@@ -37,7 +37,7 @@ img{
 
   .navbar1:hover{
     color:orange;
-    background-color: seagreen;
+    background-color: gray;
   }
 
 
