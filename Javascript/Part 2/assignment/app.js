@@ -9,11 +9,10 @@ if(num%10==0){
 
 
 /* Q.2 */
-/* let Name =prompt("Enter your name");
+let Name =prompt("Enter your name");
 let age =prompt("Enter your age"); */
-/* console.log(`${Name} is ${age} years old `);
- */
-
+ console.log(`${Name} is ${age} years old `);
+ 
 
 
 /* Q.4 */
@@ -35,7 +34,6 @@ switch (quarter) {
 
     default:
         break;
-}
 
 
 /* Q.5 */
