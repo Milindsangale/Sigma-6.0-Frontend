@@ -64,18 +64,3 @@ console.log(milind1);
 let str = "Ilovesanika";
 let str1 = str.replace("love","anvesha")
 console.log(str1);
-
-
-
-
-let string = ["milind",'sanika','anvesha','karina'];
-string[0];
-string[3];
-
-let strimgss =string.push("sangale");
-
-let month =['january' ,'july', 'march', 'august'];
-
-
-let primary  = ['january' ,'july', 'march', 'august'];
-let Secondary =['january' ,'july', 'march', 'august'];
