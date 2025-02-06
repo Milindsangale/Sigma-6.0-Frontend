@@ -79,3 +79,6 @@ let month =['january' ,'july', 'march', 'august'];
 
 let primary  = ['january' ,'july', 'march', 'august'];
 let Secondary =['january' ,'july', 'march', 'august'];
+
+
+let nums = [[2,4],[2,6],[5,4],[2,4],[2,6],[5,4],[2,4],[2,6],[5,4],[2,4],[2,6],[5,4],[2,4],[2,6],[5,4],[2,4],[2,6],[5,4],[2,4],[2,6],[5,4]];
