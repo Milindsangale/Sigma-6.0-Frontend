@@ -1,10 +1,5 @@
 console.log("milindsangale");
 console.log("milindsangale");
-console.log("milindsangale");
-console.log("milindsangale");
-console.log("milindsangale");
-console.log("milindsangale");
-
 
 try{
     console.log(a);
