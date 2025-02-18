@@ -1,9 +1,10 @@
-body {
+/* body {
   font-family: Arial;
 }
 
 #mainImg {
-  width: 35%;
+  width: 200px;
+  height: 200px;
 }
 
 .box {
@@ -26,3 +27,10 @@ body {
 #description {
   background-color: antiquewhite;
 }
+ */
+
+
+ .box{
+  border: 1px solid black;
+  background-color: pink;
+ }

@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+
+}
+
+
+div{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+button{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
