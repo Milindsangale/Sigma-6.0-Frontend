@@ -23,3 +23,7 @@ h2.style.border = '2px solid green';
 h2.style.borderRadius = '10px';
 h2.style.textAlign = 'center';
 h2.style.boxShadow = '10px 10px 10px rgba(0, 0, 0, 0.5)';
+
+
+let h3 = document.querySelector('h3');
+let document.querySelector('h3');
