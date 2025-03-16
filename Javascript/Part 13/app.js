@@ -28,6 +28,9 @@ h2.style.boxShadow = '10px 10px 10px rgba(0, 0, 0, 0.5)';
 let h3 = document.querySelector('h3');
 h3.style.color = 'green';
 h3.style.fontSize = '50px';
+h3.style.fontFamily = 'Arial';
+h3.style.backgroundColor = 'yellow';
+
 
 
 
