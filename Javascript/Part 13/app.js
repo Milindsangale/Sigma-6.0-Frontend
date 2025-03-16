@@ -1,4 +1,4 @@
-let h1 = document.querySelector('h1'); 
+/* let h1 = document.querySelector('h1'); 
 h1.style.color = 'red';
 
 h1.style.fontSize = '50px';
@@ -10,7 +10,7 @@ h1.style.borderRadius = '10px';
 h1.style.textAlign = 'center';
 h1.style.boxShadow = '10px 10px 10px rgba(0, 0, 0, 0.5)';
 
-
+ */
 
 let h2 = document.querySelector('h2');
 h2.style.color = 'blue';
@@ -26,4 +26,8 @@ h2.style.boxShadow = '10px 10px 10px rgba(0, 0, 0, 0.5)';
 
 
 let h3 = document.querySelector('h3');
-let document.querySelector('h3');
+h3.style.color = 'green';
+h3.style.fontSize = '50px';
+
+
+
