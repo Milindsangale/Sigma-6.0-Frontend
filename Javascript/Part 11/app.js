@@ -1,7 +1,7 @@
-h1 =document.querySelector('h1');
+/* h1 =document.querySelector('h1');
 
 
-function changecolor(color,delay,nextcolor) {
+function ChangeColor(color,delay,nextcolor) {
     setTimeout(() => {
         h1.style.color = color;
         nextcolor();
@@ -10,17 +10,17 @@ function changecolor(color,delay,nextcolor) {
     
 }
 
-/* callback hell */
-changecolor('red',1000,()=>{
-    changecolor('orange',2000,()=>{
-        changecolor('pink',3000,()=>{
-            changecolor('green',4000,()=>{
-                changecolor('yellow',5000,()=>{
-                    changecolor('blue',6000,()=>{
-                        changecolor('purple',7000,()=>{
-                            changecolor('black',8000,()=>{
-                                changecolor('white',9000,()=>{
-                                    changecolor('gray',10000,()=>{})
+
+ChangeColor('red',1000,()=>{
+    ChangeColor('orange',2000,()=>{
+        ChangeColor('pink',3000,()=>{
+            ChangeColor('green',4000,()=>{
+                ChangeColor('yellow',5000,()=>{
+                    ChangeColor('blue',6000,()=>{
+                        ChangeColor('purple',7000,()=>{
+                            ChangeColor('black',8000,()=>{
+                                ChangeColor('white',9000,()=>{
+                                    ChangeColor('gray',10000,()=>{})
                                 })
                             })
                         })
@@ -29,16 +29,16 @@ changecolor('red',1000,()=>{
             })
         })
     })
-}   )
-/* changecolor('orange',2000);  
-changecolor('pink',3000);
-changecolor('green',4000);
-changecolor('yellow',5000);
-changecolor('blue',6000);
-changecolor('purple',7000);
-changecolor('black',8000);
-changecolor('white',9000);
-changecolor('gray',10000);
+}   ) */
+/* ChangeColor('orange',2000);  
+ChangeColor('pink',3000);
+ChangeColor('green',4000);
+ChangeColor('yellow',5000);
+ChangeColor('blue',6000);
+ChangeColor('purple',7000);
+ChangeColor('black',8000);
+ChangeColor('white',9000);
+ChangeColor('gray',10000);
 
  */
 /* setTimeout(() => {
@@ -62,3 +62,33 @@ setTimeout(() => {
 },5000);
 
  */
+
+
+/* function savetoDb(data,succes,failure) {
+    let internetspped = Math.floor(Math.random() * 10)+1;
+    if(internetspped > 4) {
+        succes();
+    }else{
+        failure(); */
+
+
+/* savetoDb(
+    "milind sanga;e",
+    ()=>{
+        console.log('Data is saved:');
+    },
+    ()=>{
+        console.log('Data is not saved:');
+    }
+)
+
+    }
+};
+
+ */
+
+
+function savetoDb(data) {
+    let internetspped = Math.floor(Math.random() * 10)+1;
+    return new Promise(success)
+};
